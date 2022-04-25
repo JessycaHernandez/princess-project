@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: rgba(68, 19, 53, 0.7);
+  height: 3rem;
+  margin: 0;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0;
+  color: white;
+}
+li:hover {
+  color: rgb(65, 2, 65);
+}
+#img_princesas_01 {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+#logo_disney {
+  text-align: center;
+}
+#img_logo_disney {
+  width: 20%;
+}
+h2 {
+  color: rgb(65, 2, 65);
+}
+#quiz {
+  display: grid;
+  grid: auto / 50% 50%;
+  margin: 2rem;
+  text-align: center;
+}
+#img_princesas {
+  width: 100%;
+}
+#amigos_princesas {
+  width: 60%;
+  margin-left: 1rem;
+}
+#seu_melhor_amigo {
+  margin-left: 1rem;
+}
+#quiz_qual_princesa:hover {
+  border-color: rgb(107, 4, 107);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+#seu_melhor_amigo:hover {
+  border-color: rgb(107, 4, 107);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
+#img_banner_moana {
+  width: 100%;
+}
+.logo_geral {
+  height: 20px;
+}
+#parte1 {
+  display: flex;
+}
+#img_moana {
+  height: 400px;
+  margin-top: 2rem;
+}
+.princess_article {
+  color: black;
+  margin: 3rem;
+  font-family: sans-serif;
+}
+#parte2 {
+  display: flex;
+  height: 350px;
+}
+.mulheres_fortes {
+  text-align: center;
+  color: black;
+  margin: 3rem;
+  font-size: 18px;
+}
+#little_elsa {
+  height: 18rem;
+}
+#img_ariel {
+  height: 25rem;
+  padding-top: 8rem;
+}
+#little_branca {
+  height: 15rem;
+}
+#little_bela {
+  height: 15rem;
+}
+
+#banner1 {
+  height: 100vh;
+  background-image: url("/images/princesas2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner_moana {
+  background-image: url("/images/moana/banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
