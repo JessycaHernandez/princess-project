@@ -114,14 +114,14 @@ h2 {
 
 #banner1 {
   height: 100vh;
-  background-image: url("/images/princesas2.jpeg");
+  background-image: url("./images/princesas2.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 #banner_moana {
-  background-image: url("/images/moana/banner.jpeg");
+  background-image: url("./images/moana/banner.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
